@@ -1,0 +1,40 @@
+{
+  "name": "website-starter",
+  "version": "0.0.0",
+  "description": "Nuxt.js + Δ micro project",
+  "author": "Phillip Curl <phillipcurl@gmail.com>",
+  "private": true,
+  "scripts": {
+    "dev": "node server.js",
+    "build": "nuxt build",
+    "start": "NODE_ENV=production node server.js",
+    "precommit": "npm run lint",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+  },
+  "dependencies": {
+    "@nuxtjs/axios": "^4.5.2",
+    "@nuxtjs/dotenv": "^1.1.0",
+    "@nuxtjs/google-analytics": "^2.0.2",
+    "@nuxtjs/pwa": "^2.0.5",
+    "@nuxtjs/sitemap": "^0.0.3",
+    "micro": "^9.0.0",
+    "micro-compress": "^1.0.0",
+    "micro-route": "^2.4.0",
+    "node-sass": "^4.7.2",
+    "nuxt": "1.0.0",
+    "sass-loader": "^6.0.6",
+    "vuex-router-sync": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.0.0",
+    "eslint": "^4.6.1",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-html": "^3.2.1",
+    "eslint-plugin-promise": "^3.4.0",
+    "nodemon": "^1.11.0",
+    "tachyons": "^4.9.1"
+  },
+  "engines": {
+    "node": ">8.1.x"
+  }
+}
