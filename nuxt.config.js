@@ -60,11 +60,5 @@ module.exports = {
   plugins: ['~/plugins/vuex-router-sync', '~/plugins/filters'],
   router: {
     middleware: ['https']
-  },
-  /*
-  ** Add axios globally
-  */
-  build: {
-    vendor: ['axios']
   }
 };
